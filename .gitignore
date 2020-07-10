@@ -1,0 +1,16 @@
+# image labels
+*.exe
+*.ini
+*.pptx
+IJ_props.txt
+
+# ipynb ckpt
+.ipynb_checkpoints
+
+# data
+practice
+images
+labels
+
+# weights
+backup
