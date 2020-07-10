@@ -1,0 +1,6 @@
+classes=1
+train = meta\train.txt
+valid = meta\valid.txt
+names = cfg\cxr.names
+backup = backup
+    
