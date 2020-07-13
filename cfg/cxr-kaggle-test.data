@@ -1,5 +1,5 @@
 classes=1
 train = meta/train.txt
-valid = meta/valid.txt
+valid = meta/kaggle-test.txt
 names = cfg/cxr.names
 backup = backup
