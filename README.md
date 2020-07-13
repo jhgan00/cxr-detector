@@ -1,6 +1,6 @@
 <a href="https://colab.research.google.com/github/jhgan00/cxr-detector/blob/master/cxr_detector.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-# Summary
+# CXR Detector
 
 > CXR 사진에서 L 문자 디텍션
 >
@@ -10,7 +10,7 @@
 >
 > - [RSNA pneumonia detection challenge dataset](https://www.kaggle.com/c/rsna-pneumonia-detection-challenge) 성능: 0.1232 (mAP@0.5)
 
-# 0. Build
+# 0. Build darknet
 
 ```
 import os
@@ -108,10 +108,7 @@ plt.figure(figsize = (10,10))
 plt.imshow(plt.imread("predictions.jpg"))
 ```
 
-
-
-
-![png](./assets/output_17_1.png){: width="150px" height="150px"}
+<img src="./assets/output_17_1.png" width="350">
 
 ### 1.3.2. **1.00 mAP** at IoU=50
 
@@ -163,7 +160,7 @@ mean average precision (mAP@0.50) = 0.994191, or 99.42 %
 
 ## 2.2. RSNA Pneumonia detection dataset
 
-![](./assets/rsna3.png){: width="150px" height="150px"}
+<img src="./assets/rsna3.png" width="350">
 
 ### 2.2.1. 0.1232 mAP at IoU=50
 
