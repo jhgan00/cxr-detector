@@ -23,13 +23,12 @@ os.chdir("darknet")
 
 # 1. Train
 
-
-
-## 1.1 Config
-
 - \# of train images: 1,800
 - \# of valid images: 200
 - \# of test images: 200
+- \# of test images(RSNA pneumonia detection challenge dataset): 200
+
+## 1.1. Config
 
 params|values
 ---|---
@@ -108,7 +107,7 @@ plt.figure(figsize = (10,10))
 plt.imshow(plt.imread("predictions.jpg"))
 ```
 
-<img src="./assets/output_17_1.png" width="350">
+
 
 ### 1.3.2. **1.00 mAP** at IoU=50
 
